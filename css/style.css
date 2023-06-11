@@ -1,0 +1,92 @@
+body {
+  background: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h3,
+h5,
+hr {
+  color: #3e4957;
+}
+
+h4 {
+  color: #8fb4f1;
+  letter-spacing: 0.5rem;
+  font-size: 14px;
+}
+
+p {
+  color: #8b929a;
+  font-size: 18px;
+}
+
+a {
+  color: #8b929a;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #2c6ed5;
+}
+
+th p,
+td p {
+  color: #3e4957;
+}
+
+.table__grey {
+  color: #8b929a;
+}
+.table__grey-light {
+  color: #e2e9fc;
+}
+
+.footer {
+  background: #353f4b;
+}
+.footer p, .footer span {
+  font-size: 14px;
+}
+.footer__border {
+  border-bottom: 1px solid #3e4957;
+}
+
+.payment {
+  background: #3e4957;
+  width: 37px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+.try {
+  background: #3a83f6;
+}
+.try__text {
+  font-size: 16px;
+  color: #e2e9fc;
+}
+.try__btn {
+  color: #3a83f6;
+}
+
+.accordion__text {
+  font-size: 18px;
+}
+
+.templates__btn {
+  color: #3a83f6;
+  border-color: #3a83f6;
+}
+
+.news__pagination {
+  border: none;
+}
+
+.table__mobile p {
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,110 @@
+$secondary-grey: #8b929a;
+$primary-grey: #3e4957;
+$hedingTwoColor: #8fb4f1;
+$footerBgColor: #353f4b;
+$primaryHover: #2c6ed5;
+$primary: #3a83f6;
+$light-grey: #e2e9fc;
+
+body {
+  background: url(../img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h3,
+h5,
+hr {
+  color: $primary-grey;
+}
+
+h4 {
+  color: $hedingTwoColor;
+  letter-spacing: 0.5rem;
+  font-size: 14px;
+}
+
+p {
+  color: $secondary-grey;
+  font-size: 18px;
+}
+
+a {
+  color: $secondary-grey;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $primaryHover;
+  }
+}
+
+th p,
+td p {
+  color: $primary-grey;
+}
+
+.table__grey {
+  color: $secondary-grey;
+
+  &-light {
+    color: $light-grey;
+  }
+}
+
+.footer {
+  background: $footerBgColor;
+
+  p, span {
+    font-size: 14px;
+  }
+
+  &__border {
+    border-bottom: 1px solid $primary-grey;
+  }
+}
+
+.payment {
+  background: $primary-grey;
+  width: 37px;
+  height: 22px;
+  border-radius: 3px;
+}
+
+.try {
+  background: $primary;
+
+  &__text {
+    font-size: 16px;
+    color: $light-grey;
+  }
+  
+  &__btn {
+    color: $primary;
+  }
+}
+
+.accordion__text {
+  font-size: 18px;
+}
+
+.templates__btn {
+  color: $primary;
+  border-color: $primary;
+}
+
+.news__pagination {
+  border: none;
+}
+
+.table__mobile p{
+  font-size: 16px;
+}
+
+.table__plans p {
+  font-size: 16px;
+}
